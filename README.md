@@ -15,7 +15,16 @@
 
 ---
 
-## Why 8d?
+## CASM Architecture (Cognitive Agent State Machine)
+
+`8d` pioneers the **CASM Architecture**, uniquely designed for autonomous agentic environments. Instead of storing linear diffs, `8d` models code repositories as a non-linear, cryptographically-linked cognitive memory graph.
+1. **Cognitive**: Commits represent explicit agent reasoning cycles containing full prompt objectives, tools utilized, and execution metadata, rather than just code.
+2. **Agent State**: Independent agent executions fork their internal execution paths natively. Conflicting agent operations never block each other with locked state logic.
+3. **Machine**: The system implements an asynchronous Set-Union mathematical Merkle boundary to arbitrarily resolve parallel realities precisely identical to a globally distributed database machine.
+
+---
+
+## Why 8d over Git?
 
 Git was designed for human authors committing deliberate, atomic changes in linear sequences. Modern AI agent swarms operate fundamentally differently. They generate hundreds of iterations concurrently, frequently diverge into dead-ends, and require contextual state retrieval based on cognitive relevance, rather than simple cronological ordering. 
 
