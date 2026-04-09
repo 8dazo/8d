@@ -11,13 +11,8 @@ defmodule EightDCli.MixProject do
       lockfile: "../../mix.lock",
       elixir: "~> 1.19",
       start_permanent: Mix.env() == :prod,
-      escript: escript(),
       deps: deps()
     ]
-  end
-
-  defp escript do
-    [main_module: EightDCli.CLI, name: "8d"]
   end
 
   # Run "mix help compile.app" to learn about applications.
