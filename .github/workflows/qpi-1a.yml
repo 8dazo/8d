@@ -2,7 +2,7 @@ name: QPI-1A graph transfer
 
 on:
   push:
-    branches: [qpi-cross-stack]
+    branches: [qpi-cross-stack, qpi-1a-run]
     paths:
       - 'qpi_v1/**'
       - 'qpi_real_hardware/**'
