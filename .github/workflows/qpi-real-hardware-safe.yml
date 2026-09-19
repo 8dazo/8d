@@ -25,8 +25,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r qpi_real_hardware/requirements.txt
       - name: Run QPI-0F safety gate
-        working-directory: qpi_real_hardware
-        run: python safe_gate.py
+        run: python qpi_real_hardware/safe_gate.py
       - name: Show results
         if: always()
         run: |
